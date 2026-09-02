@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "sampleId": "riverkeeper-action",
+  "sourceFixtureId": "p3-canary-riverkeeper-action",
+  "nestedPath": "/campaigns/clean-water-bond/",
+  "repository": "spyfu/siteaudit-demo-riverkeeper-action",
+  "cloudflarePagesProject": "siteaudit-demo-riverkeeper-action",
+  "productionBranch": "demo-01",
+  "publicUrl": "https://siteaudit-demo-riverkeeper-action.pages.dev/",
+  "editUrl": "https://github.com/spyfu/siteaudit-demo-riverkeeper-action/edit/demo-01/siteaudit-head.html"
+}

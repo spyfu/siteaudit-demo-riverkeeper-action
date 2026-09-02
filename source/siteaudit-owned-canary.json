@@ -1,0 +1,71 @@
+{
+  "id": "p3-canary-riverkeeper-action",
+  "reviewPacket": "tests/fixtures/owned-canary-fleet.md",
+  "profile": "riverkeeper-action",
+  "layout": "advocacy",
+  "surfaceModel": "nonprofit advocacy with campaigns, stories, volunteer action, and events",
+  "provider": "cloudflare-pages",
+  "status": "public",
+  "owner": "ops",
+  "url": "https://p3-canary-riverkeeper-action.xlpha.com/",
+  "stack": "drupal-static",
+  "install": "both",
+  "pageCount": 5,
+  "representativePaths": [
+    "/",
+    "/campaigns/clean-water-bond/",
+    "/take-action/",
+    "/stories/east-river-restoration/"
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "title": "East Riverkeeper Alliance | River restoration, policy pressure, and volunteer action",
+      "canonical": "https://p3-canary-riverkeeper-action.xlpha.com/",
+      "quirks": [
+        "utm-action-links",
+        "story-to-campaign-loop"
+      ],
+      "eyebrow": "Urban watershed advocacy"
+    },
+    {
+      "route": "/campaigns/clean-water-bond/",
+      "title": "Clean-water bond campaign | East Riverkeeper Alliance",
+      "canonical": "https://p3-canary-riverkeeper-action.xlpha.com/campaigns/clean-water-bond/",
+      "quirks": [
+        "utm-action-links",
+        "campaign-to-story-loop"
+      ],
+      "eyebrow": "Policy campaign"
+    },
+    {
+      "route": "/take-action/",
+      "title": "Take action for the river | East Riverkeeper Alliance",
+      "canonical": "https://p3-canary-riverkeeper-action.xlpha.com/take-action/",
+      "quirks": [
+        "action-utm-links",
+        "event-loop"
+      ],
+      "eyebrow": "Volunteer and supporter actions"
+    },
+    {
+      "route": "/stories/east-river-restoration/",
+      "title": "What restoration looks like on the east river | East Riverkeeper Alliance",
+      "canonical": null,
+      "quirks": [
+        "missing-canonical",
+        "story-to-action-loop"
+      ],
+      "eyebrow": "Field story"
+    },
+    {
+      "route": "/events/kayak-cleanup-saturday/",
+      "title": "Saturday kayak cleanup | East Riverkeeper Alliance",
+      "canonical": "https://p3-canary-riverkeeper-action.xlpha.com/events/kayak-cleanup-saturday/",
+      "quirks": [
+        "event-to-action-loop"
+      ],
+      "eyebrow": "Public event"
+    }
+  ]
+}
