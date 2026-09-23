@@ -1,17 +1,21 @@
-<!doctype html>
-<!-- This is the recognizable site-wide header source used during the demo. -->
 <head>
+  <!-- This shared head is rendered on every page. Paste the Site Audit snippet anywhere inside it. -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
-  <meta name="theme-color" content="#19324d">
-  <title>Riverkeeper Action | Shared site header</title>
-  <link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/site.css">
-
-  <!-- Site-wide integrations loaded on every page belong in this region. -->
-  <!-- SITEAUDIT-DEMO-INJECT:START -->
-  <!-- PASTE SITE AUDIT STAGE PIXEL BELOW THIS LINE -->
-
-  <!-- SITEAUDIT-DEMO-INJECT:END -->
+  {{ page.head }}
+  <meta name="siteaudit-fixture-id" content="p3-canary-riverkeeper-action">
+  <meta name="siteaudit-fixture-stack" content="drupal-static">
+  <meta name="siteaudit-canary-profile" content="riverkeeper-action">
+  <meta name="siteaudit-canary-layout" content="advocacy">
+  <meta name="siteaudit-canary-surface-model" content="nonprofit advocacy with campaigns, stories, volunteer action, and events">
+  <meta name="siteaudit-canary-representative-paths" content="/, /campaigns/clean-water-bond/, /take-action/, /stories/east-river-restoration/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Inter:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Libre+Franklin:wght@400;500;600;700&family=Libre+Caslon+Text:wght@400;700&family=Instrument+Sans:wght@400;500;600;700&family=Literata:opsz,wght@7..72,500;7..72,600;7..72,700&family=Merriweather:wght@400;700&family=Oswald:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Public+Sans:wght@400;500;600;700&family=Roboto+Slab:wght@500;600;700&family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap">
+  <link rel="icon" type="image/svg+xml" href="/assets/brand/favicon.svg?v=e9cb3dd01a16">
+  <link rel="stylesheet" href="/assets/site.css?v=e9cb3dd01a16">
+  <style>
+    :root {--accent: #14605b; --bg: #eef5f2; --surface: #f7fbf9; --surface-strong: #ffffff; --ink: #143032; --muted: #5b7173; --radius: 4px; --shadow: 0 20px 44px rgba(20, 48, 50, 0.08); --font-display: "Newsreader", Georgia, serif; --font-body: "Instrument Sans", "Segoe UI", sans-serif;}
+  </style>
+  <script src="/assets/site.js?v=e9cb3dd01a16" defer></script>
 </head>
